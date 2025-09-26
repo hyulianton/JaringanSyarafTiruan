@@ -1,1 +1,1 @@
-Materi Kuliah Jaringan Syaraf Tiruab
+Materi Kuliah Jaringan Syaraf Tiruan
