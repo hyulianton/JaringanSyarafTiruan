@@ -1,54 +1,46 @@
+# Jaringan Syaraf Tiruan (Artificial Neural Networks)
 
-# Jaringan Syaraf Tiruan
+Repositori ini berisi kumpulan materi kuliah **Jaringan Syaraf Tiruan (JST)** pada Program Studi Teknik Informatika Universitas Stikubank Semarang. Semua materi disajikan dalam bentuk notebook interaktif yang dapat dijalankan di Google Colab.
 
-Materi kuliah **Jaringan Syaraf Tiruan (JST)** pada Program Studi Teknik Informatika Universitas Stikubank Semarang.  
-Repositori ini berisi kumpulan notebook interaktif yang dibuat menggunakan Google Colab untuk mendukung pembelajaran konsep dasar hingga implementasi lanjutan JST.
+---
+
+## 🎯 Tujuan
+- Memberikan pemahaman dasar hingga lanjutan tentang konsep JST.
+- Menunjukkan penerapan JST pada berbagai kasus nyata (klasifikasi, deteksi anomali, NLP, generasi teks, dll).
+- Memperkenalkan teknik modern seperti **transfer learning**, **autoencoder**, dan **variational autoencoder**.
+- Menyediakan eksperimen untuk **natural language processing (NLP)** termasuk analisis sentimen dan penerjemahan bahasa.
 
 ---
 
 ## 📚 Daftar Materi
 
-- **Perceptron Dasar**
-  - `jst_Perceptron_Sederhana_Gerbang_AND.ipynb`
-  - `jst_Perceptron_gerbang_XOR.ipynb`
-  - `jst_Visualisasi_Perceptron.ipynb`
+### Dasar JST
+- Perceptron dan Multi-Layer Perceptron
+- Backpropagation
+- Convolutional Neural Network (CNN)
 
-- **Fungsi Aktivasi & Permasalahan**
-  - `jst_masalah_saturasi_pada_fungsi_aktivasi_Sigmoid.ipynb`
-  - `jst_Masalah_Dying_ReLU.ipynb`
-
-- **Multilayer Perceptron (MLP)**
-  - `jst_Implementasi_Multilayer_Perceptron_(MLP)_dari_Nol_dengan_NumPy.ipynb`
-  - `jst_Implementasi_Multilayer_Perceptron_(MLP)_Menggunakan_PyTorch.ipynb`
-  - `jst_💻_PyTorch_MLP_Training_dengan_Regularisasi_(MNIST).ipynb`
-  - `jst_💻_Python_PyTorch_Training_JST_Sederhana_(FashionMNIST).ipynb`
-
-- **Convolutional Neural Network (CNN)**
-  - `jst_CNN_dengan_Dataset_PathMNIST_(MedMNIST_v2).ipynb`
-
-- **Eksperimen & Analisis**
-  - `jst_Melihat_Perbedaan_Perilaku_Loss.ipynb`
-  - `jst_Mengukur_Kinerja_JST_Klasifikasi_pada_Dataset_MNIST.ipynb`
-  - `jst_⚙️_Hyperparameter_Tuning_Manual_(Fix_High_Standard_Deviation).ipynb`
-  - `jst_💻_Implementasi_Tiga_Optimizer.ipynb`
-
----
-
-## 🎯 Tujuan
-Repositori ini bertujuan untuk:
-- Memberikan pemahaman konseptual tentang JST.
-- Menyediakan contoh implementasi praktis menggunakan **NumPy** dan **PyTorch**.
-- Membantu mahasiswa melakukan eksperimen dengan dataset populer seperti MNIST, FashionMNIST, dan MedMNIST.
+### Materi Lanjutan
+- **Transfer Learning**
+  - `jst_Contoh_transfer_learning_CNN.ipynb`
+- **Autoencoder & Variational Autoencoder**
+  - `jst_Deteksi_Anomali_dengan_Autoencoder.ipynb`
+  - `jst_Program_Denoising_Autoencoder_dengan_Fashion_MNIST.ipynb`
+  - `jst_Variational_Autoencoder_(VAE)_untuk_Generasi_Data_Baru.ipynb`
+- **Natural Language Processing (NLP)**
+  - `jst_Penerapan_Recurrent_Neural_Network_(RNN)_untuk_Analisis_Sentimen.ipynb`
+  - `jst_Program_GRU_untuk_Analisis_Sentimen_menggunakan_Dataset_IMDB.ipynb`
+  - `jst_Mesin_Penerjemah_Bahasa_Inggris_ke_Bahasa_Indonesia.ipynb`
+- **Generasi Teks**
+  - `jst_Generasi_Teks_dengan_LSTM.ipynb`
+  - `jst_Generasi_Teks_dengan_LSTM_v2.ipynb`
+  - `jst_Generasi_Teks_dengan_tokenisasi_subword.ipynb`
 
 ---
 
 ## 🚀 Cara Menggunakan
-1. Clone repositori:
-   ```bash
-   git clone https://github.com/hyulianton/JaringanSyarafTiruan.git
-   ```
-2. Buka notebook di Google Colab atau Jupyter Notebook.
-3. Ikuti instruksi di setiap notebook untuk menjalankan eksperimen.
+1. Buka notebook yang diinginkan.
+2. Jalankan di **Google Colab** (klik tombol "Open in Colab" bila tersedia).
+3. Pastikan dataset eksternal (IMDB, FashionMNIST, MedMNIST) tersedia. Instruksi unduh dataset ada di masing-masing notebook.
 
 ---
 
@@ -57,15 +49,17 @@ Repositori ini bertujuan untuk:
 - NumPy
 - PyTorch
 - Google Colab
+- NLTK / HuggingFace Tokenizers (untuk NLP)
 
 ---
 
-## 📖 Lisensi
-Repositori ini dibuat untuk tujuan edukasi. Silakan gunakan dan modifikasi sesuai kebutuhan pembelajaran.
+## 📌 Catatan
+- Materi ini ditujukan untuk pembelajaran dan eksperimen.
+- Silakan gunakan sebagai referensi untuk penelitian, tugas kuliah, maupun eksplorasi pribadi.
 
 ---
 
-## 👨‍🏫 Kontributor
-**Heribertus Yulianton**  
-Senior Lecturer, Universitas Stikubank Semarang  
-Spesialisasi: Cloud Computing, Big Data, Advanced AI, dan Pendidikan Interdisipliner
+## 👨‍🏫 Dosen Pengampu
+**Heribertus Yulianton, S.Si., M.Cs.**  
+Senior Lecturer in Computer Science  
+Universitas Stikubank Semarang
